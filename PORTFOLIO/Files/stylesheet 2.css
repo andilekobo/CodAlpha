@@ -1,0 +1,106 @@
+
+
+     body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         line-height: 1.6;
+         background-color: white;
+         background-image: url();
+         color: green;
+
+
+         
+    
+     }
+     
+     header {
+         background-color: green;
+         color: white;
+         padding: 1rem 0;
+         text-align: center;
+         font-size: 50px;
+     }
+     
+     header h1 {
+         margin: 0;
+     }
+     
+     section {
+         padding: 2rem 1rem;
+         text-align: center;
+     }
+     
+     #about img {
+         width: 450px;
+         height: 500px;
+     }
+    
+     #skills ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    color:black;
+    box-shadow: 6px 6px 13px green,
+    6px 6px 13px  rgba(0, 0, 0,.16);
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 10px; 
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+}
+     
+     .project {
+         margin: 2rem 0;
+     }
+     
+     .project img {
+         width: 100%;
+         height: auto;
+         max-width: 300px;
+     }
+     
+     footer {
+         background-color: green;
+         color: white;
+         padding: 1rem 0;
+         text-align: center;
+        
+     }
+     #resume a {
+    display: inline-block;
+    background-color: green; 
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+.card{
+    border: solid;
+    border-radius: 10px;
+    border-color: green;
+    box-shadow: 6px 6px 13px green,
+    6px 6px 13px  rgba(0, 0, 0,.16);
+}
+.row{
+    box-shadow: 6px 6px 13px green,
+    6px 6px 13px  rgba(0, 0, 0,.16);
+}
