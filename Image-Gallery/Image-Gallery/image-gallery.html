@@ -1,0 +1,52 @@
+<!-- 
+  @Author: Your name
+  @Date:   2024-08-03 02:55:31
+  @Last Modified by:   Your name
+  @Last Modified time: 2024-08-13 21:37:14
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./image-gallery.css">
+    <script src="./image-gallery.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <section id="home">          
+        <div class="home-description">
+          <h1>Welcome to my online Image Gallery</h1>
+        </div>
+        
+      </section>
+      <section id="gallery">        
+        <div class="fullImage" id="fullImage" onclick="closeImage()">
+          <img id="full-Image" src="images/img1.jpg">
+          <span onclick="closeImage()">Close</span>
+        </div>
+        <div class="gallery-images">
+          <img id="img" src="images/img1.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img2.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img3.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img4.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img5.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img6.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img7.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img8.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img9.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img10.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img11.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img12.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img13.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img14.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img15.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img16.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img17.jpg" onclick="viewImage(this.src)">
+          <img id="img" src="images/img18.jpg" onclick="viewImage(this.src)">
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
